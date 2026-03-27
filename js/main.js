@@ -72,7 +72,24 @@ const openBtn = document.querySelector(".btn__open");
 const closeBtn = document.querySelector(".btn__close");
 const popup = document.querySelector(".product__filters");
 
+if (openBtn && closeBtn && popup) {
+    openBtn.addEventListener("click", function (e) {
+        e.preventDefault();
+        popup.style.display = "block";
+        document.body.style.overflow = "hidden";
+    });
 
+    closeBtn.addEventListener("click", function (e) {
+        e.preventDefault();
+        popup.style.display = "none";
+        document.body.style.overflow = "";
+    });
 
-
+    document.addEventListener("click", function (e) {
+        if (!popup.contains(e.target) && !openBtn.contains(e.target)) {
+            popup.style.display = "none";
+            document.body.style.overflow = "";
+        }
+    });
+}
 
