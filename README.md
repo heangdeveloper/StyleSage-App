@@ -74,7 +74,22 @@ This clothing store project focuses on providing a user-friendly interface and s
 
 ## 📸 App Preview
 
-<p align="center">
+<p align="center" style="display: flex; justify-content: center; align-items: flex-start; gap: 10px;">
     <img src="./screenshots/index_pc.png" alt="Desktop View" width="65%" />
     <img src="./screenshots/index_mo.png" alt="Mobile View" width="25%" />
+</p>
+
+<p align="center" style="display: flex; justify-content: center; align-items: flex-start; gap: 10px;">
+    <img src="./screenshots/Category Page_pc.png" alt="Desktop View" width="65%" />
+    <img src="./screenshots/Category Page_mo.png" alt="Mobile View" width="25%" />
+</p>
+
+<p align="center" style="display: flex; justify-content: center; align-items: flex-start; gap: 10px;">
+    <img src="./screenshots/Product Detail Page_pc.png" alt="Desktop View" width="65%" />
+    <img src="./screenshots/Product Detail Page_mo.png" alt="Mobile View" width="25%" />
+</p>
+
+<p align="center" style="display: flex; justify-content: center; align-items: flex-start; gap: 10px;">
+    <img src="./screenshots/Cart Page_pc.png" alt="Desktop View" width="65%" />
+    <img src="./screenshots/Cart Page_mo.png" alt="Mobile View" width="25%" />
 </p>
