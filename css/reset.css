@@ -1,0 +1,112 @@
+@font-face{
+	font-family:'Satoshi';
+	font-style:normal;
+	font-weight:900;
+	src:local('Satoshi Black'), local('Satoshi-Black'),
+		url(../font/Satoshi-Black.otf) format('opentype');
+}
+
+@font-face{
+	font-family:'Satoshi';
+	font-style:normal;
+	font-weight:700;
+	src:local('Satoshi Bold'), local('Satoshi-Bold'),
+		url(../font/Satoshi-Bold.otf) format('opentype');
+}
+
+@font-face{
+	font-family:'Satoshi';
+	font-style:normal;
+	font-weight:500;
+	src:local('Satoshi Medium'), local('Satoshi-Medium'),
+		url(../font/Satoshi-Medium.otf) format('opentype');
+}
+
+@font-face{
+	font-family:'Satoshi';
+	font-style:normal;
+	font-weight:400;
+	src:local('Satoshi Regular'), local('Satoshi-Regular'),
+		url(../font/Satoshi-Regular.otf) format('opentype');
+}
+
+@font-face{
+	font-family:'Satoshi';
+	font-style:normal;
+	font-weight:300;
+	src:local('Satoshi Light'), local('Satoshi-Light'),
+		url(../font/Satoshi-Light.otf) format('opentype');
+}
+
+@font-face{
+	font-family:'Integral CF';
+	font-style:normal;
+	font-weight:900;
+	src:local('Integral CF Heavy'), local('IntegralCF-Heavy'),
+		url(../font/IntegralCF-Heavy.otf) format('opentype');
+}
+
+@font-face{
+	font-family:'Integral CF';
+	font-style:normal;
+	font-weight:800;
+	src:local('Integral CF ExtraBold'), local('IntegralCF-ExtraBold'),
+		url(../font/IntegralCF-ExtraBold.otf) format('opentype');
+}
+
+@font-face{
+	font-family:'Integral CF';
+	font-style:normal;
+	font-weight:700;
+	src:local('Integral CF Bold'), local('IntegralCF-Bold'),
+		url(../font/IntegralCF-Bold.otf) format('opentype');
+}
+
+@font-face{
+	font-family:'Integral CF';
+	font-style:normal;
+	font-weight:500;
+	src:local('Integral CF Medium'), local('IntegralCF-Medium'),
+		url(../font/IntegralCF-Medium.otf) format('opentype');
+}
+
+@font-face{
+	font-family:'Integral CF';
+	font-style:normal;
+	font-weight:400;
+	src:local('Integral CF Regular'), local('IntegralCF-Regular'),
+		url(../font/IntegralCF-Regular.otf) format('opentype');
+}
+
+header,nav,section,article,aside,footer,hgroup,menu,canvas,figcaption,figure{display:block;}
+html,body,table,th,td,div,p,ol,ul,li,img,a,h1,h2,h3,h4,h5,h6,form,fieldset,label,input,textarea,select,span,iframe,dl,dt,dd,pre,blockquote,time,hr{margin:0;padding:0;}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+*, *:before, *:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;}
+html, body{margin:0;padding:0;-webkit-overflow-scrolling:touch;-webkit-text-size-adjust:100%;}
+dl,ul,ol{list-style:none;}
+a{text-decoration:none;cursor:pointer;}
+img{border:none;}
+img,label{vertical-align:top;}
+button{border:0;border-radius:0;box-shadow:none;background:none;-webkit-appearance:none;cursor:pointer;}
+button:focus{outline:none;}
+input:focus{outline:none;}
+textarea:focus{outline:none;}
+select:focus{outline:none;}
+button:focus{outline:none;}
+
+.tac{text-align:center !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

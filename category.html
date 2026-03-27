@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleSage - Category</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <script src="./js/swiper-bundle.min.js"></script>
+</head>
+<body class="filter__open">
+    <div class="wrap sub">
+        <div class="header">
+            <div class="header__inner">
+                <div class="header__topbar">
+                    <h1>Sign up and get 20% off to your first order. <a href="#none">Sign Up Now</a></h1>
+                </div>
+                <div class="header__menu">
+                    <div class="header__menu__inner">
+                        <div class="header__left">
+                            <div class="header__menu__mo">
+                                <a href="#none"><img src="img/ic/ic_menu_mo.png" alt="Menu"></a>
+                            </div>
+                            <div class="header__menu__logo">
+                                <h1><a href="index.html">StyleSage</a></h1>
+                            </div>
+                        </div>
+                        <div class="header__right">
+                            <div class="header__menu__item">
+                                <ul>
+                                    <li>
+                                        <a href="#none">Shop</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">On Sale</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">New Arrivals</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">Brands</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header__menu__search">
+                                <input type="text" placeholder="Search for products...">
+                                <button class="bt__search"><i class="ic__search"></i></button>
+                            </div>
+                            <div class="header__menu__user">
+                                <a href="#none"><img src="img/ic/ic_search_mo.png" alt=""></a>
+                                <a href="#none"><img src="img/ic/ic_cart.png" alt=""></a>
+                                <a href="#none"><img src="img/ic/ic_user.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="sect sect__subPage">
+                <div class="sect__inner">
+                    <div class="breadcrumb">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active">Casual</li>
+                        </ul>
+                    </div>
+                    <div class="product__category">
+                        <div class="left">
+                            <div class="product__filters">
+                                <dl>
+                                    <dt>
+                                        <h4>
+                                            Filters
+                                            <a href="#none" class="btn__toggler"><i><img src="img/ic/ic_filtter.png" alt=""></i></a>
+                                            <a href="#none" class="btn__close"><i><img src="img/ic/ic_close.png" alt=""></i></a>
+                                        </h4>
+                                    </dt>
+                                    <dd>
+                                        <ul>
+                                            <li class="on">
+                                                <dl>
+                                                    <dd>
+                                                        <ul class="product__type">
+                                                            <li>
+                                                                <a href="#none"><span>T-shirts</span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#none"><span>Shorts</span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#none"><span>Shirts</span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#none"><span>Hoodie</span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#none"><span>Jeans</span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </dd>
+                                                </dl>
+                                            </li>
+                                            <li class="on">
+                                                <dl>
+                                                    <dt>
+                                                        <h4>
+                                                            <a href="#none"><span>Price</span></a>
+                                                        </h4>
+                                                    </dt>
+                                                    <dd>
+                                                        <div class="range__slider">
+                                                            <span class="slider__track"></span>
+                                                            <input type="range" name="min_val" class="min__val" min="1000" max="12000" value="2000" oninput="slideMin()"/>
+                                                            <input type="range" name="max_val" class="max__val" min="1000" max="12000" value="7000" oninput="slideMax()"/>
+                                                            <div class="tooltipe min__tooltip"></div>
+                                                            <div class="tooltipe max__tooltip"></div>
+                                                        </div>
+                                                    </dd>
+                                                </dl>
+                                            </li>
+                                            <li class="on">
+                                                <dl>
+                                                    <dt>
+                                                        <h4>
+                                                            <a href="#none"><span>Colors</span></a>
+                                                        </h4>
+                                                    </dt>
+                                                    <dd>
+                                                        <ul class="product__color">
+                                                            <li>
+                                                                <label class="btn__color" for="00C12B" style="background-color:#00C12B;">
+                                                                    <input type="radio" id="" name="color" value="00C12B">
+                                                                    <i></i>
+                                                                </label>
+                                                            </li>
+                                                            <li>
+                                                                <label class="btn__color" for="F50606" style="background-color:#F50606;">
+                                                                    <input type="radio" id="" name="color" value="F50606">
+                                                                    <i></i>
+                                                                </label>
+                                                            </li>
+                                                            <li>
+                                                                <label class="btn__color" for="F5DD06" style="background-color:#F5DD06;">
+                                                                    <input type="radio" id="" name="color" value="F5DD06">
+                                                                    <i></i>
+                                                                </label>
+                                                            </li>
+                                                            <li>
+                                                                <label class="btn__color" for="F57906" style="background-color:#F57906;">
+                                                                    <input type="radio" id="" name="color" value="F57906">
+                                                                    <i></i>
+                                                                </label>
+                                                            </li>
+                                                            <li>
+                                                                <label class="btn__color" for="06CAF5" style="background-color:#06CAF5;">
+                                                                    <input type="radio" id="" name="color" value="06CAF5">
+                                                                    <i></i>
+                                                                </label>
+                                                            </li>
+                                                            <li>
+                                                                <label class="btn__color" for="063AF5" style="background-color:#063AF5;">
+                                                                    <input type="radio" id="" name="color" value="063AF5">
+                                                                    <i></i>
+                                                                </label>
+                                                            </li>
+                                                            <li>
+                                                                <label class="btn__color" for="7D06F5" style="background-color:#7D06F5;">
+                                                                    <input type="radio" id="" name="color" value="7D06F5">
+                                                                    <i></i>
+                                                                </label>
+                                                            </li>
+                                                            <li>
+                                                                <label class="btn__color" for="F506A4" style="background-color:#F506A4;">
+                                                                    <input type="radio" id="" name="color" value="F506A4">
+                                                                    <i></i>
+                                                                </label>
+                                                            </li>
+                                                            <li>
+                                                                <label class="btn__color" for="FFFFFF" style="background-color:#FFFFFF;">
+                                                                    <input type="radio" id="" name="color" value="FFFFFF">
+                                                                    <i></i>
+                                                                </label>
+                                                            </li>
+                                                            <li>
+                                                                <label class="btn__color" for="000000" style="background-color:#000000;">
+                                                                    <input type="radio" id="" name="color" value="000000">
+                                                                    <i></i>
+                                                                </label>
+                                                            </li>
+                                                        </ul>
+                                                    </dd>
+                                                </dl>
+                                            </li>
+                                            <li class="on">
+                                                <dl>
+                                                    <dt>
+                                                        <h4>
+                                                            <a href="#none"><span>Size</span></a>
+                                                        </h4>
+                                                    </dt>
+                                                    <dd>
+                                                        <ul class="product__size">
+                                                            <li>
+                                                                <label class="btn__size" for="XX-Small">
+                                                                    <input type="radio" id="" name="size" value="XX-Small"/>
+                                                                    <i></i>
+                                                                    <span>XX-Small</span>
+                                                                </label>
+                                                            </li>
+                                                            <li>
+                                                                <label class="btn__size" for="X-Small">
+                                                                    <input type="radio" id="" name="size" value="X-Small"/>
+                                                                    <i></i>
+                                                                    <span>X-Small</span>
+                                                                </label>
+                                                            </li>
+                                                            <li>
+                                                                <label class="btn__size" for="Small">
+                                                                    <input type="radio" id="" name="size" value="Small"/>
+                                                                    <i></i>
+                                                                    <span>Small</span>
+                                                                </label>
+                                                            </li>
+                                                            <li>
+                                                                <label class="btn__size" for="Medium">
+                                                                    <input type="radio" id="" name="size" value="Medium"/>
+                                                                    <i></i>
+                                                                    <span>Medium</span>
+                                                                </label>
+                                                            </li>
+                                                            <li>
+                                                                <label class="btn__size" for="Large">
+                                                                    <input type="radio" id="" name="size" value="Large"/>
+                                                                    <i></i>
+                                                                    <span>Large</span>
+                                                                </label>
+                                                            </li>
+                                                            <li>
+                                                                <label class="btn__size" for="X-Large">
+                                                                    <input type="radio" id="" name="size" value="X-Large"/>
+                                                                    <i></i>
+                                                                    <span>X-Large</span>
+                                                                </label>
+                                                            </li>
+                                                            <li>
+                                                                <label class="btn__size" for="XX-Large">
+                                                                    <input type="radio" id="" name="size" value="XX-Large"/>
+                                                                    <i></i>
+                                                                    <span>XX-Large</span>
+                                                                </label>
+                                                            </li>
+                                                            <li>
+                                                                <label class="btn__size" for="3X-Large">
+                                                                    <input type="radio" id="" name="size" value="3X-Large"/>
+                                                                    <i></i>
+                                                                    <span>3X-Large</span>
+                                                                </label>
+                                                            </li>
+                                                            <li>
+                                                                <label class="btn__size" for="4X-Large">
+                                                                    <input type="radio" id="" name="size" value="4X-Large"/>
+                                                                    <i></i>
+                                                                    <span>4X-Large</span>
+                                                                </label>
+                                                            </li>
+                                                        </ul>
+                                                    </dd>
+                                                </dl>
+                                            </li>
+                                            <li class="on">
+                                                <dl>
+                                                    <dt>
+                                                        <h4>
+                                                            <a href="#none"><span>Dress Style</span></a>
+                                                        </h4>
+                                                    </dt>
+                                                    <dd>
+                                                        <ul class="product__type">
+                                                            <li>
+                                                                <a href="#none"><span>Casual</span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#none"><span>Formal</span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#none"><span>Party</span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#none"><span>Gym</span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </dd>
+                                                </dl>
+                                            </li>
+                                        </ul>
+                                        <div class="btn_wrap">
+                                            <button type="button" class="btn btn__sm"><span>Apply Filter</span></button>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="product__sort">
+                                <dl>
+                                    <dt>
+                                        <h4>Casual</h4>
+                                    </dt>
+                                    <dd>
+                                        <p>Showing 1-10 of 100 Products <span>Sort by:<a href="#none">Most Popular</a></span></p>
+                                        <button type="button" class="btn btn__sm btn__gray btn__round btn__open"><i><img src="img/ic/ic_filtter.png" alt=""></i></button>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="product__list">
+                                <ul>
+                                    <li>
+                                        <a href="#none">
+                                            <div class="product__img">
+                                                <img src="img/product/img_10.png" alt="Gradient Graphic T-shirt">
+                                            </div>
+                                            <div class="product__info">
+                                                <h3>Gradient Graphic T-shirt</h3>
+                                                <div class="product__rate">
+                                                    <div class="star">
+                                                        <ul>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 1"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 2"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 3"></li>
+                                                            <li><img src="img/ic/ic_star_half.png" alt="Star 3.5"></li>
+                                                        </ul>
+                                                    </div>
+                                                    <span class="number">3.5/5</span>
+                                                </div>
+                                                <p class="product__price">$145</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">
+                                            <div class="product__img">
+                                                <img src="img/product/img_11.png" alt="Polo with Tipping Details">
+                                            </div>
+                                            <div class="product__info">
+                                                <h3>Polo with Tipping Details</h3>
+                                                <div class="product__rate">
+                                                    <div class="star">
+                                                        <ul>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 1"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 2"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 3"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 4"></li>
+                                                            <li><img src="img/ic/ic_star_half.png" alt="Star 4.5"></li>
+                                                        </ul>
+                                                    </div>
+                                                    <span class="number">4.5/5</span>
+                                                </div>
+                                                <p class="product__price">$180</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">
+                                            <div class="product__img">
+                                                <img src="img/product/img_12.png" alt="Black Striped T-shirt">
+                                            </div>
+                                            <div class="product__info">
+                                                <h3>Black Striped T-shirt</h3>
+                                                <div class="product__rate">
+                                                    <div class="star">
+                                                        <ul>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 1"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 2"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 3"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 4"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 5"></li>
+                                                        </ul>
+                                                    </div>
+                                                    <span class="number">5.0/5</span>
+                                                </div>
+                                                <p class="product__price">$120<span class="discount__price">$150</span></p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">
+                                            <div class="product__img">
+                                                <img src="img/product/img_02.png" alt="Skinny Fit Jeans">
+                                            </div>
+                                            <div class="product__info">
+                                                <h3>Skinny Fit Jeans</h3>
+                                                <div class="product__rate">
+                                                    <div class="star">
+                                                        <ul>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 1"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 2"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 3"></li>
+                                                            <li><img src="img/ic/ic_star_half.png" alt="Star 3.5"></li>
+                                                        </ul>
+                                                    </div>
+                                                    <span class="number">3.5/5</span>
+                                                </div>
+                                                <p class="product__price">$240<span class="discount__price">$260</span></p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">
+                                            <div class="product__img">
+                                                <img src="img/product/img_03.png" alt="Checkered Shirt">
+                                            </div>
+                                            <div class="product__info">
+                                                <h3>Checkered Shirt</h3>
+                                                <div class="product__rate">
+                                                    <div class="star">
+                                                        <ul>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 1"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 2"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 3"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 4"></li>
+                                                            <li><img src="img/ic/ic_star_half.png" alt="Star 4.5"></li>
+                                                        </ul>
+                                                    </div>
+                                                    <span class="number">4.5/5</span>
+                                                </div>
+                                                <p class="product__price">$180</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">
+                                            <div class="product__img">
+                                                <img src="img/product/img_04.png" alt="Sleeve Striped T-shirt">
+                                            </div>
+                                            <div class="product__info">
+                                                <h3>Sleeve Striped T-shirt</h3>
+                                                <div class="product__rate">
+                                                    <div class="star">
+                                                        <ul>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 1"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 2"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 3"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 4"></li>
+                                                            <li><img src="img/ic/ic_star_half.png" alt="Star 4.5"></li>
+                                                        </ul>
+                                                    </div>
+                                                    <span class="number">4.5/5</span>
+                                                </div>
+                                                <p class="product__price">$130<span class="discount__price">$160</span></p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">
+                                            <div class="product__img">
+                                                <img src="img/product/img_05.png" alt="Vertical Striped Shirt">
+                                            </div>
+                                            <div class="product__info">
+                                                <h3>Vertical Striped Shirt</h3>
+                                                <div class="product__rate">
+                                                    <div class="star">
+                                                        <ul>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 1"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 2"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 3"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 4"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 5"></li>
+                                                        </ul>
+                                                    </div>
+                                                    <span class="number">5.0/5</span>
+                                                </div>
+                                                <p class="product__price">$212<span class="discount__price">$232</span></p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">
+                                            <div class="product__img">
+                                                <img src="img/product/img_06.png" alt="Courage Graphic T-shirt">
+                                            </div>
+                                            <div class="product__info">
+                                                <h3>Courage Graphic T-shirt</h3>
+                                                <div class="product__rate">
+                                                    <div class="star">
+                                                        <ul>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 1"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 2"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 3"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 4"></li>
+                                                        </ul>
+                                                    </div>
+                                                    <span class="number">4.0/5</span>
+                                                </div>
+                                                <p class="product__price">$145</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">
+                                            <div class="product__img">
+                                                <img src="img/product/img_07.png" alt="Loose Fit Bermuda Shorts">
+                                            </div>
+                                            <div class="product__info">
+                                                <h3>Loose Fit Bermuda Shorts</h3>
+                                                <div class="product__rate">
+                                                    <div class="star">
+                                                        <ul>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 1"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 2"></li>
+                                                            <li><img src="img/ic/ic_star.png" alt="Star 3"></li>
+                                                        </ul>
+                                                    </div>
+                                                    <span class="number">3.0/5</span>
+                                                </div>
+                                                <p class="product__price">$80</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="paginate">
+                                <button type="button" class="page_arr"><i><img src="img/ic/ic_arrow_left.png" alt=""></i><span>Previous</span></button>
+                                <ul>
+                                    <li><a href="#none" class="on">1</a></li>
+                                    <li><a href="#none">2</a></li>
+                                    <li><a href="#none">3</a></li>
+                                    <li><span>...</span></li>
+                                    <li><a href="#none">8</a></li>
+                                    <li><a href="#none">9</a></li>
+                                    <li><a href="#none">10</a></li>
+                                </ul>
+                                <button type="button" class="page_arr"><span>Next</span><i><img src="img/ic/ic_arrow_right.png" alt=""></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer__inner">
+                <div class="cust__subscribe">
+                    <div class="cust__subscribe__inner">
+                        <div class="subscribe__info">
+                            <p>
+                                Stay upto date about
+                                our latest offers
+                            </p>
+                        </div>
+                        <div class="subscribe__form">
+                            <form autocomplete="off">
+                                <div class="frm__control">
+                                    <input type="email" placeholder="Enter your email address">
+                                    <i><img src="img/ic/ic_email.png" alt=""></i>
+                                </div>
+                                <button type="button" class="btn btn__white btn__sm">Subscribe to Newsletter</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__top">
+                    <div class="foot__info">
+                        <div class="foot__logo">
+                            <h6><a href="index.html">Shop.co</a></h6>
+                        </div>
+                        <div class="foot__des">
+                            <p>
+                                We have clothes that suits your style and
+                                which you’re proud to wear. From
+                                women to men.
+                            </p>
+                        </div>
+                        <div class="foot__social">
+                            <ul>
+                                <li><a href="#none"><img src="img/logo/logo_twitter.png" alt=""></a></li>
+                                <li><a href="#none"><img src="img/logo/logo_facebook.png" alt=""></a></li>
+                                <li><a href="#none"><img src="img/logo/logo_ig.png" alt=""></a></li>
+                                <li><a href="#none"><img src="img/logo/logo_github.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="foot__menu">
+                        <ul>
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <h4>Company</h4>
+                                    </dt>
+                                    <dd>
+                                        <ul>
+                                            <li>
+                                                <a href="#none">About</a>
+                                            </li>
+                                            <li>
+                                                <a href="#none">Features</a>
+                                            </li>
+                                            <li>
+                                                <a href="#none">Works</a>
+                                            </li>
+                                            <li>
+                                                <a href="#none">Career</a>
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <h4>Help</h4>
+                                    </dt>
+                                    <dd>
+                                        <ul>
+                                            <li>
+                                                <a href="#none">Customer Support</a>
+                                            </li>
+                                            <li>
+                                                <a href="#none">Delivery Details</a>
+                                            </li>
+                                            <li>
+                                                <a href="#none">Terms & Conditions</a>
+                                            </li>
+                                            <li>
+                                                <a href="#none">Privacy Policy</a>
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <h4>Faq</h4>
+                                    </dt>
+                                    <dd>
+                                        <ul>
+                                            <li>
+                                                <a href="#none">Account</a>
+                                            </li>
+                                            <li>
+                                                <a href="#none">Manage Deliveries</a>
+                                            </li>
+                                            <li>
+                                                <a href="#none">Orders</a>
+                                            </li>
+                                            <li>
+                                                <a href="#none">Payments</a>
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <h4>Resources</h4>
+                                    </dt>
+                                    <dd>
+                                        <ul>
+                                            <li>
+                                                <a href="#none">Free eBooks</a>
+                                            </li>
+                                            <li>
+                                                <a href="#none">Development Tutorial</a>
+                                            </li>
+                                            <li>
+                                                <a href="#none">How to - Blog</a>
+                                            </li>
+                                            <li>
+                                                <a href="#none">Youtube Playlist</a>
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__bootom">
+                    <div class="foot__copyright">
+                        <p>© 2000-<span id="year"></span>, All rights reserved</p>
+                    </div>
+                    <div class="foot__payvai">
+                        <ul>
+                            <li><img src="img/logo/logo_visa.png" alt=""></li>
+                            <li><img src="img/logo/logo_mastercard.png" alt=""></li>
+                            <li><img src="img/logo/logo_paypal.png" alt=""></li>
+                            <li><img src="img/logo/logo_apple_pay.png" alt=""></li>
+                            <li><img src="img/logo/logo_google_pay.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal__backdrop"></div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
