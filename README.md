@@ -69,3 +69,12 @@ This page ensures a clear and smooth checkout process.
 ## 📌 Conclusion
 
 This clothing store project focuses on providing a user-friendly interface and seamless shopping experience, from browsing products to completing a purchase.
+
+---
+
+## 📸 App Preview
+
+<p align="center">
+    <img src="./screenshots/index_pc.png" alt="Desktop View" width="65%" />
+    <img src="./screenshots/index_mo.png" alt="Mobile View" width="25%" />
+</p>
